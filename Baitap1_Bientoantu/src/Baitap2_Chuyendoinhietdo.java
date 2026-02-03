@@ -2,7 +2,9 @@
 public class Baitap2_Chuyendoinhietdo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Khai báo biến và công thức chuyển
+		double celsius = 25.0;
+        double fahrenheit = (celsius * 9/5) + 32;
 
 	}
 
