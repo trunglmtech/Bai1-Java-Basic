@@ -4,7 +4,14 @@ import java.util.Scanner;
 public class Baitap1_Tinhtonghaiso {
 
 	public static void main(String[] args) {
-		
+		// Nhập dữ liệu từ bàn phím 
+		Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Nhập số thứ nhất: ");
+        double num1 = scanner.nextDouble();
+        
+        System.out.print("Nhập số thứ hai: ");
+        double num2 = scanner.nextDouble();
 
 	}
 
