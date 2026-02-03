@@ -2,7 +2,9 @@
 public class Baitap4_Tinhtiendien {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+			// Khai báo dữ liệu điện
+		 int soDien = 250;  // kWh
+	     double tienDien = 0;
 
 	}
 
