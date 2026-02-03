@@ -17,6 +17,10 @@ public class Baitap4_Tinhtiendien {
 	        } else {
 	            tienDien = 50 * 1678 + 50 * 1734 + 100 * 2014 + 100 * 2536 + (soDien - 300) * 2834;
 	        }
+	     // In kết quả tiền điện thông tin điện
+	     	System.out.println("Số điện: " + soDien + " kWh");
+	        System.out.println("Tiền điện: " + tienDien + " đồng");
+	        System.out.println("Tiền điện (VND): " + String.format("PT,.0f", tienDien) + " đ");
 	}
 
 }
