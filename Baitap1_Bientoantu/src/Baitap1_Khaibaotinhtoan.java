@@ -10,6 +10,10 @@ public class Baitap1_Khaibaotinhtoan {
         int tong = a + b;
         double thuong = a / c;
         int phanDu = a ;
+        // 3. In kết quả tính
+        System.out.println("Tổng: " + tong);
+        System.out.println("Thương: " + thuong);
+        System.out.println("Phần dư: " + phanDu);
 	}
 
 }
