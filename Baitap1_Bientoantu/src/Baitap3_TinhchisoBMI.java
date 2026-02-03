@@ -8,6 +8,11 @@ public class Baitap3_TinhchisoBMI {
         double height = 1.70;    
         
         double bmi = weight / (height * height);
+        // In dữ liệu chiều cao cân nặng
+        System.out.println("Cân nặng: " + weight + " kg");
+        System.out.println("Chiều cao: " + height + " m");
+        System.out.println("Chỉ số BMI: " + bmi);
+        
 
 	}
 
