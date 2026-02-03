@@ -20,7 +20,8 @@ public class Baitap4_Tinhtiendien {
 	     // In kết quả tiền điện thông tin điện
 	     	System.out.println("Số điện: " + soDien + " kWh");
 	        System.out.println("Tiền điện: " + tienDien + " đồng");
-	        System.out.println("Tiền điện (VND): " + String.format("PT,.0f", tienDien) + " đ");
+	        System.out.println("Tiền điện (VND): " + String.format("%,.0f", tienDien) + " đ");
+
 	}
 
 }
