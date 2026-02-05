@@ -15,7 +15,10 @@ public class Baitap2_Quydoitien {
 
 	        System.out.print("Nhap so tien: ");
 	        double soTien = sc.nextDouble();
-
+	   // Xử lý quy đổi
+	        	if (chon == 1) {
+	            double vnd = soTien * tiGia;
+	            System.out.println("So tien sau khi doi: " + vnd + " VND");
 	}
 
 }
