@@ -26,6 +26,8 @@ public class Baitap1_Tinhtiendien {
 	                     + 100 * 2014
 	                     + (soDien - 200) * 2536;
 	        }
+	     // in ra tiền điện
+	        System.out.println("Tien dien: " + tienDien + " VND");
 
 	}
 
