@@ -19,6 +19,8 @@ public class Baitap2_Quydoitien {
 	        	if (chon == 1) {
 	            double vnd = soTien * tiGia;
 	            System.out.println("So tien sau khi doi: " + vnd + " VND");
-	}
+	        	} else {
+	        	System.out.println("Lua chon khong hop le!");
+    }
 
 }
