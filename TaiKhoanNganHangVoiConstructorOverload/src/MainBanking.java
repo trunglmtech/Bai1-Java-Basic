@@ -20,7 +20,11 @@ public class MainBanking {
             System.out.println("\nThử rút tiền");
             tk2.rutTien(300);
             tk3.rutTien(1500); // rút quá xem báo gì
+            System.out.println("\nSố dư conf lại");
+            System.out.println("TK1: " + tk1.getSoDu());
+            System.out.println("TK2: " + tk2.getSoDu());
+            System.out.println("TK3: " + tk3.getSoDu());
 
-
+            
         }
     }
