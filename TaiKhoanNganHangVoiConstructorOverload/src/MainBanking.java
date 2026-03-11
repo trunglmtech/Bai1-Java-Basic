@@ -13,6 +13,6 @@ public class MainBanking {
             TaiKhoanNganHang tk3 = new TaiKhoanNganHang("03", "Tran Thi B", 1000);
             System.out.println("TK3: " + tk3.getSoTaiKhoan() + " - " + tk3.getTenChuTaiKhoan() + " - Số dư: " + tk3.getSoDu());
 
-            s
+            
         }
     }
