@@ -33,4 +33,14 @@ public class TaiKhoanNganHang {
             this.tenChuTaiKhoan = ten;
         }
     }
+    // Phương thức gửi tiền
+    public boolean guiTien(double soTien) {
+        if (soTien > 0) {
+            this.soDu += soTien;
+            System.out.println("Gửi tiền thành công! Số dư mới: " + this.soDu);
+            return true;
+        }
+        System.out.println("Số tiền gửi phải > 0!");
+        return false;
+    }
 }
