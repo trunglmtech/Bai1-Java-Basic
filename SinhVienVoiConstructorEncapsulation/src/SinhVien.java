@@ -39,7 +39,7 @@ public class SinhVien {
         if (ten != null && !ten.trim().isEmpty()) {
             this.ten = ten;
         } else {
-            System.out.println("Tên không hợp lệ!");
+            System.out.println("Tên không hợp lệ");
         }
     }
 
@@ -47,7 +47,7 @@ public class SinhVien {
         if (tuoi >= 18 && tuoi <= 50) {
             this.tuoi = tuoi;
         } else {
-            System.out.println("Tuổi phải từ 18 đến 50!");
+            System.out.println("Tuổi phải từ 18 đến 50");
             this.tuoi = 18;  // Giá trị mặc định
         }
     }
@@ -56,7 +56,7 @@ public class SinhVien {
         if (maSV != null && maSV.startsWith("SV")) {
             this.maSV = maSV;
         } else {
-            System.out.println("Mã SV phải bắt đầu bằng 'SV'!");
+            System.out.println("Mã SV phải bắt đầu bằng 'SV'");
         }
     }
 
@@ -66,5 +66,14 @@ public class SinhVien {
         } else {
             System.out.println("Điểm TB phải từ 0.0 đến 10.0!");
         }
+    }
+    // Phương thức công khai
+    public void hienThiThongTin() {
+        System.out.println("=== THÔNG TIN SINH VIÊN ===");
+        System.out.println("Tên: " + this.ten);
+        System.out.println("Tuổi: " + this.tuoi);
+        System.out.println("Mã SV: " + this.maSV);
+        System.out.println("Điểm TB: " + this.diemTB);
+        System.out.println("Xếp loại: " + this.xepLoai());
     }
 }
