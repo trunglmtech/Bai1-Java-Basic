@@ -25,4 +25,20 @@ public class NhanVien {
         public double getHeSoLuong() {
             return heSoLuong;
         }
+        // Setter
+        public void setMaNV(String maNV) {
+            this.maNV = maNV;
+        }
+
+        public void setHoTen(String hoTen) {
+            this.hoTen = hoTen;
+        }
+
+        public void setLuongCoBan(double luongCoBan) {
+            this.luongCoBan = luongCoBan;
+        }
+
+        public void setHeSoLuong(double heSoLuong) {
+            this.heSoLuong = heSoLuong;
+        }
 }
