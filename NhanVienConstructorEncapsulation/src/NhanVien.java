@@ -9,36 +9,54 @@ public class NhanVien {
         this.hoTen = hoTen;
         this.luongCoBan = luongCoBan;
         this.heSoLuong = heSoLuong;
+    }
         // Getter
-        public String getMaNV() {
+        public String getMaNV () {
             return maNV;
         }
 
-        public String getHoTen() {
+        public String getHoTen () {
             return hoTen;
         }
 
-        public double getLuongCoBan() {
+        public double getLuongCoBan () {
             return luongCoBan;
         }
 
-        public double getHeSoLuong() {
+        public double getHeSoLuong () {
             return heSoLuong;
         }
         // Setter
-        public void setMaNV(String maNV) {
+        public void setMaNV (String maNV){
             this.maNV = maNV;
         }
 
-        public void setHoTen(String hoTen) {
+        public void setHoTen (String hoTen){
             this.hoTen = hoTen;
         }
 
-        public void setLuongCoBan(double luongCoBan) {
+        public void setLuongCoBan ( double luongCoBan){
             this.luongCoBan = luongCoBan;
         }
 
-        public void setHeSoLuong(double heSoLuong) {
+        public void setHeSoLuong ( double heSoLuong){
             this.heSoLuong = heSoLuong;
         }
+        // Tính lương
+        public double tinhLuong () {
+            return luongCoBan * heSoLuong;
+        }
+
+        // Xếp loại nhân viên
+        public String xepLoai () {
+            double luong = tinhLuong();
+
+            if (luong >= 20000000) {
+                return "Xuất sắc";
+            } else if (luong >= 15000000) {
+                return "Tốt";
+            } else {
+                return "Khá";
+            }
+    }
 }
