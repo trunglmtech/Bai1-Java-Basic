@@ -7,4 +7,9 @@ public class Diem {
         this.x = 0;
         this.y = 0;
     }
+    // Constructor có tham số
+    public Diem(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
 }
