@@ -12,10 +12,15 @@ public class MainDiem {
             System.out.println("Hai điểm trùng nhau");
         } else {
             System.out.println("Hai điểm không trùng nhau");
-            
+
         // Điểm đối xứng
             Diem dx = d1.doiXungQuaGoc();
             System.out.println("Điểm đối xứng của d1: (" + dx.getX() + ", " + dx.getY() + ")");
         }
+    // Test đổi thông tin
+        System.out.print("\n");
+    d1.setX(2);
+    d1.setY(3);
+    System.out.println("Khoảng cách: " + d1.tinhKhoangCach(d2));
     }
 }
