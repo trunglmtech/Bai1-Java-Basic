@@ -23,4 +23,14 @@ public class TaiKhoanNganHang {
         this.tenChuTaiKhoan = tenChuTaiKhoan;
         this.soDu = (soDu >= 0) ? soDu : 0.0;
     }
+    // Getter/Setter
+    public String getSoTaiKhoan() { return soTaiKhoan; }
+    public String getTenChuTaiKhoan() { return tenChuTaiKhoan; }
+    public double getSoDu() { return soDu; }
+
+    public void setTenChuTaiKhoan(String ten) {
+        if (ten != null && ten.length() > 0) {
+            this.tenChuTaiKhoan = ten;
+        }
+    }
 }
