@@ -65,4 +65,17 @@ public class SanPham {
             System.out.println("Số lượng phải ≥ 0!");
         }
     }
+    // Tính thành tiền
+    public double tinhThanhTien() {
+        return gia * soLuong;
+    }
+
+    // Hiển thị thông tin
+    public void hienThiThongTin() {
+        System.out.println("Mã SP: " + maSP);
+        System.out.println("Tên SP: " + tenSP);
+        System.out.println("Giá: " + gia);
+        System.out.println("Số lượng: " + soLuong);
+        System.out.println("Thành tiền: " + tinhThanhTien());
+    }
 }
