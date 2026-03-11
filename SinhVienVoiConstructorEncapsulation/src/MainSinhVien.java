@@ -9,4 +9,10 @@ public class MainSinhVien {
         sv1.hienThiThongTin();
 
         System.out.println("\n---\n");
+        // Tạo sinh viên với constructor có tham số
+        SinhVien sv2 = new SinhVien("Trần Thị B", 21, "SV002");
+        sv2.setDiemTB(7.2);
+        sv2.hienThiThongTin();
+
+        System.out.println("\n---\n");
 }
