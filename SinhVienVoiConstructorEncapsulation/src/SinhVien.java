@@ -76,4 +76,11 @@ public class SinhVien {
         System.out.println("Điểm TB: " + this.diemTB);
         System.out.println("Xếp loại: " + this.xepLoai());
     }
+    // Phương thức private - chỉ dùng nội bộ
+    private String xepLoai() {
+        if (diemTB >= 8.0) return "Giỏi";
+        else if (diemTB >= 6.5) return "Khá";
+        else if (diemTB >= 5.0) return "Trung bình";
+        else return "Yếu";
+    }
 }
