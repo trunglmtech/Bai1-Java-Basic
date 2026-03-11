@@ -15,4 +15,9 @@ public class MainSinhVien {
         sv2.hienThiThongTin();
 
         System.out.println("\n---\n");
+        // Test validation
+        SinhVien sv3 = new SinhVien();
+        sv3.setTuoi(15);  // Tuổi không hợp lệ
+        sv3.setDiemTB(12.5);  // Điểm không hợp lệ
+        sv3.setMaSV("ABC123");  // Mã SV không hợp lệ
 }
