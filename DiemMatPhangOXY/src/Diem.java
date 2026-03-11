@@ -28,5 +28,9 @@ public class Diem {
     public void setY(double y) {
         this.y = y;
     }
-
+    // Tính khoảng cách giữa 2 điểm
+    public double tinhKhoangCach(Diem d) {
+        return Math.sqrt(Math.pow(this.x - d.x, 2) +
+                Math.pow(this.y - d.y, 2));
+    }
 }
