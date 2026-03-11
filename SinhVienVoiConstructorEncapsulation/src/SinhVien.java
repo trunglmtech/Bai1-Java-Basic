@@ -18,4 +18,20 @@ public class SinhVien {
         this.maSV = maSV;
         this.diemTB = 0.0;
     }
+    // GETTER - Lấy giá trị thuộc tính
+    public String getTen() {
+        return ten;
+    }
+
+    public int getTuoi() {
+        return tuoi;
+    }
+
+    public String getMaSV() {
+        return maSV;
+    }
+
+    public double getDiemTB() {
+        return diemTB;
+    }
 }
