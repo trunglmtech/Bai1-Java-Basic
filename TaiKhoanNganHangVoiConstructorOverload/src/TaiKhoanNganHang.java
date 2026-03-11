@@ -43,4 +43,14 @@ public class TaiKhoanNganHang {
         System.out.println("Số tiền gửi phải > 0!");
         return false;
     }
+    // Phương thức rút tiền
+    public boolean rutTien(double soTien) {
+        if (soTien > 0 && soTien <= this.soDu) {
+            this.soDu -= soTien;
+            System.out.println("Rút tiền thành công! Số dư mới: " + this.soDu);
+            return true;
+        }
+        System.out.println("Số tiền rút không hợp lệ!");
+        return false;
+    }
 }
