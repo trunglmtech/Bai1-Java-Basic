@@ -33,4 +33,36 @@ public class SanPham {
     public int getSoLuong() {
         return soLuong;
     }
+    // Setter valid
+    public void setMaSP(String maSP) {
+        if (maSP != null && !maSP.trim().isEmpty()) {
+            this.maSP = maSP;
+        } else {
+            System.out.println("Mã sản phẩm không được rỗng!");
+        }
+    }
+
+    public void setTenSP(String tenSP) {
+        if (tenSP != null && !tenSP.trim().isEmpty()) {
+            this.tenSP = tenSP;
+        } else {
+            System.out.println("Tên sản phẩm không hợp lệ!");
+        }
+    }
+
+    public void setGia(double gia) {
+        if (gia > 0) {
+            this.gia = gia;
+        } else {
+            System.out.println("Giá phải > 0!");
+        }
+    }
+
+    public void setSoLuong(int soLuong) {
+        if (soLuong >= 0) {
+            this.soLuong = soLuong;
+        } else {
+            System.out.println("Số lượng phải ≥ 0!");
+        }
+    }
 }
