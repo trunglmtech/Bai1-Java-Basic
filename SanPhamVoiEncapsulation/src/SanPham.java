@@ -12,9 +12,25 @@ public class SanPham {
     }
     // Constructor có tham số
     public SanPham(String maSP, String tenSP, double gia, int soLuong) {
-        MaSP(maSP);
-        TenSP(tenSP);
-        Gia(gia);
-        SoLuong(soLuong);
+        setMaSP(maSP);
+        setTenSP(tenSP);
+        setGia(gia);
+        setSoLuong(soLuong);
+    }
+    // Getter
+    public String getMaSP() {
+        return maSP;
+    }
+
+    public String getTenSP() {
+        return tenSP;
+    }
+
+    public double getGia() {
+        return gia;
+    }
+
+    public int getSoLuong() {
+        return soLuong;
     }
 }
