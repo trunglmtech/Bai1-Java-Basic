@@ -10,4 +10,11 @@ public class SanPham {
         this.gia = 1;
         this.soLuong = 0;
     }
+    // Constructor có tham số
+    public SanPham(String maSP, String tenSP, double gia, int soLuong) {
+        MaSP(maSP);
+        TenSP(tenSP);
+        Gia(gia);
+        SoLuong(soLuong);
+    }
 }
