@@ -33,4 +33,9 @@ public class Diem {
         return Math.sqrt(Math.pow(this.x - d.x, 2) +
                 Math.pow(this.y - d.y, 2));
     }
+    // Kiểm tra 2 điểm có trùng nhau không
+    public boolean kiemTraTrungNhau(Diem d) {
+        return this.x == d.x && this.y == d.y;
+    }
+
 }
