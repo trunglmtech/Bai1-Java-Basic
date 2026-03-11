@@ -12,4 +12,13 @@ public class Diem {
         this.x = x;
         this.y = y;
     }
+    // Getter
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
 }
