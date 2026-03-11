@@ -37,5 +37,8 @@ public class Diem {
     public boolean kiemTraTrungNhau(Diem d) {
         return this.x == d.x && this.y == d.y;
     }
-
+    // Trả về điểm đối xứng qua gốc tọa độ
+    public Diem doiXungQuaGoc() {
+        return new Diem(-this.x, -this.y);
+    }
 }
