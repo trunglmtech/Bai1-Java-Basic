@@ -9,4 +9,20 @@ public class NhanVien {
         this.hoTen = hoTen;
         this.luongCoBan = luongCoBan;
         this.heSoLuong = heSoLuong;
+        // Getter
+        public String getMaNV() {
+            return maNV;
+        }
+
+        public String getHoTen() {
+            return hoTen;
+        }
+
+        public double getLuongCoBan() {
+            return luongCoBan;
+        }
+
+        public double getHeSoLuong() {
+            return heSoLuong;
+        }
 }
