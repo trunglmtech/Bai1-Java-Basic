@@ -17,6 +17,10 @@ public class MainBanking {
             tk1.guiTien(500);
             tk2.guiTien(1000);
 
+            System.out.println("\nThử rút tiền");
+            tk2.rutTien(300);
+            tk3.rutTien(1500); // rút quá xem báo gì
+
 
         }
     }
