@@ -11,4 +11,11 @@ public class SinhVien {
         this.maSV = "SV000";
         this.diemTB = 0.0;
     }
+    // Constructor có tham số
+    public SinhVien(String ten, int tuoi, String maSV) {
+        this.ten = ten;
+        this.setTuoi(tuoi);  // Sử dụng setter để validate
+        this.maSV = maSV;
+        this.diemTB = 0.0;
+    }
 }
