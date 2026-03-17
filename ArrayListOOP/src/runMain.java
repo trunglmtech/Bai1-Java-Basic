@@ -20,11 +20,17 @@ public class runMain {
         // c. kiêểm tra bao số chẵn
         int tam = 0;
         for ( Integer x : dssonguyen){
-            if( x % 2 == 0 ){
+            if( x % 2 == 0 ) {
                 tam++;
             }
-
         }
-        System.out.println(tam + " ");
+        System.out.println("\n");
+        System.out.println("Co " + tam + " so chan trong mang ");
+        // d. tppmgr cac phan tu
+        int temp = 0;
+        for ( Integer x : dssonguyen){
+            temp += x;
+        }
+        System.out.println("Tong cac phan tu trong mang la: " + temp + " ");
     }
 }
