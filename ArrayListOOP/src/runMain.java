@@ -17,5 +17,14 @@ public class runMain {
         for ( Integer x : dssonguyen){
             System.out.print(x + " ");
         }
+        // c. kiêểm tra bao số chẵn
+        int tam = 0;
+        for ( Integer x : dssonguyen){
+            if( x % 2 == 0 ){
+                tam++;
+            }
+
+        }
+        System.out.println(tam + " ");
     }
 }
