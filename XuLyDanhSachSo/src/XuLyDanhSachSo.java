@@ -17,7 +17,7 @@ public class XuLyDanhSachSo {
 
             System.out.println("Danh sách vừa nhập: " + ds);
 
-            // 1. Loại bỏ trùng lặ
+            // 1. Loại bỏ trùng lặp
             ArrayList<Integer> dsKhongTrung = new ArrayList<>();
             for (Integer x : ds) {
                 if (!dsKhongTrung.contains(x)) {
