@@ -28,4 +28,9 @@ public class ArrayListCoBan {
         System.out.println("Trước khi cập nhật: " + danhSachTen.get(1));
         danhSachTen.set(1, "Trần Thị B (Đã đổi tên)");
         System.out.println("Sau khi cập nhật: " + danhSachTen.get(1));
+        // 6. Tìm kiếm - contains(), indexOf()
+        System.out.println("\n--- TÌM KIẾM ---");
+        System.out.println("Có 'Lê Văn C' không? " + danhSachTen.contains("Lê Văn C"));
+        System.out.println("Vị trí của 'Lê Văn C': " + danhSachTen.indexOf("Lê Văn C"));
+        System.out.println("Vị trí của 'Không tồn tại': " + danhSachTen.indexOf("Không tồn tại"));
     }
