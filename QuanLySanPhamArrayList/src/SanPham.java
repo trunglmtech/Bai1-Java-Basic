@@ -21,5 +21,6 @@ public class SanPham {
             return String.format("%-6s %-15s %-10.2f %-5d",
                     maSP, tenSP, gia, soLuong);
         }
+
 }
 
