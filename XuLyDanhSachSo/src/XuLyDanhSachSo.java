@@ -26,7 +26,7 @@ public class XuLyDanhSachSo {
             }
             System.out.println("Danh sách không trùng lặp: " + dsKhongTrung);
 
-            // 2. Tìm số lớn thứ 2
+            // 2. Tìm số lớn thứ 
             int max1 = Integer.MIN_VALUE;
             int max2 = Integer.MIN_VALUE;
             for (int x : dsKhongTrung) {
