@@ -17,6 +17,11 @@ public class ArrayListCoBan {
 
         System.out.println("Danh sách sau khi thêm: " + danhSachTen);
         // 3. Lấy kích thước - size()
-        System.out.println("\n--- KÍCH THƯỚC ---");
+        System.out.println("\n KÍCH THƯỚC ");
         System.out.println("Số phần tử: " + danhSachTen.size());
+        // 4. Truy cập phần tử - get()
+        System.out.println("\n--- TRUY CẬP PHẦN TỬ ---");
+        System.out.println("Phần tử thứ 0: " + danhSachTen.get(0));
+        System.out.println("Phần tử thứ 2: " + danhSachTen.get(2));
+
     }
