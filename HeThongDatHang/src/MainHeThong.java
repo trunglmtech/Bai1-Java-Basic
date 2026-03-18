@@ -5,7 +5,7 @@ public class MainHeThong {
         public static void main(String[] args) {
             QuanLyDonHang ql = new QuanLyDonHang();
 
-            // Thêm vài đơn hàng
+            // Thêm vài đơn hàn
             ql.them(new DonHang("DH01", "Nguyen Van A",
                     Arrays.asList("Ao", "Quan"), 300, "2026-03-01"));
             ql.them(new DonHang("DH02", "Tran Thi B",
