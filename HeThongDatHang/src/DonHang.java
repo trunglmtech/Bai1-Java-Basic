@@ -5,7 +5,7 @@ public class DonHang {
     String tenKH;
     List<String> danhSachSanPham;
     double tongTien;
-    String ngayDat; // "dd-MM-yyyy"
+    String ngayDat;
 
     public DonHang(String maDH, String tenKH, List<String> danhSachSanPham, double tongTien, String ngayDat) {
         this.maDH = maDH;
