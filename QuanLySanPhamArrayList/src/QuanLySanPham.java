@@ -55,7 +55,7 @@ public class QuanLySanPham {
                 .sum();
     }
 
-    // Sắp hết hàng (<10)
+    // Sắp hết hàng <10
     public void sapHetHang() {
         ds.stream()
                 .filter(sp -> sp.getSoLuong() < 10)
