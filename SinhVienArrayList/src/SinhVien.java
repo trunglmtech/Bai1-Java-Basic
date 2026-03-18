@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class SinhVien {
     private String maSV;
     private String hoTen;
