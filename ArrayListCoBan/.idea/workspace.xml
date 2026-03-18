@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="899d7042-a94e-449b-bfa9-e9f165bf0557" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListCoBan.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773830220986</updated>
-      <workItem from="1773830222157" duration="311000" />
+      <workItem from="1773830222157" duration="522000" />
     </task>
     <servers />
   </component>
