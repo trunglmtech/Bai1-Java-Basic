@@ -39,7 +39,7 @@ public class XuLyDanhSachSo {
             }
             System.out.println("Số lớn thứ 2: " + max2);
 
-            // 3. Tính trung bình cộng các số chẵ
+            // 3. Tính trung bình cộng các số chẵn
             int tongChan = 0, demChan = 0;
             for (int x : ds) {
                 if (x % 2 == 0) {
@@ -50,7 +50,7 @@ public class XuLyDanhSachSo {
             double trungBinhChan = demChan > 0 ? (double) tongChan / demChan : 0;
             System.out.println("Trung bình cộng số chẵn: " + trungBinhChan);
 
-            // 4. Tách danh sách thành 2: số chẵn và số lẻ
+            // 4. Tách danh sách thành 2: số chẵn và số l
             ArrayList<Integer> chan = new ArrayList<>();
             ArrayList<Integer> le = new ArrayList<>();
             for (int x : ds) {
