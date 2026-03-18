@@ -63,4 +63,11 @@ public class ArrayListCoBan {
 
         System.out.println("\nCách 3: ForEach với Lambda (Java 8+)");
         danhSachTen.forEach(ten -> System.out.println("Tên: " + ten));
+        // 10. Chuyển đổi sang mảng - toArray()
+        System.out.println("\n--- CHUYỂN ĐỔI SANG MẢNG ---");
+        String[] mangTen = danhSachTen.toArray(new String[0]);
+        System.out.println("Mảng chuyển đổi:");
+        for (String ten : mangTen) {
+            System.out.println(ten);
+        }
     }
