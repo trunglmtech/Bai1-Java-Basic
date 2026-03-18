@@ -19,6 +19,6 @@ public class SinhVien {
 
     @Override
     public String toString() {
-        return String.format("Mã:
+        return String.format("Mã: ");
     }
 }

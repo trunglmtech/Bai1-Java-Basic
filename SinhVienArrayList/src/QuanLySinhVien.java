@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// Lớp quản lý sinh viên sử dụng ArrayList
 public class QuanLySinhVien {
     private List<SinhVien> danhSachSV;
 
@@ -24,33 +25,34 @@ public class QuanLySinhVien {
         return null;
     }
 
-// Tìm sinh viên có điểm cao nhất
-public SinhVien timDiemCaoNhat() {
-    if (danhSachSV.isEmpty()) {
-        return null;
-    }
-
-    SinhVien svCaoNhat = danhSachSV.get(0);
-    for (SinhVien sv : danhSachSV) {
-        if (sv.getDiemTB() > svCaoNhat.getDiemTB()) {
-            svCaoNhat = sv;
+    // Tìm sinh viên có điểm cao nhất
+    public SinhVien timDiemCaoNhat() {
+        if (danhSachSV.isEmpty()) {
+            return null;
         }
-    }
-    return svCaoNhat;
-}
 
-// Tính điểm trung bình của cả lớp
-public double tinhDiemTrungBinhLop() {
-    if (danhSachSV.isEmpty()) {
-        return 0;
+        SinhVien svCaoNhat = danhSachSV.get(0);
+        for (SinhVien sv : danhSachSV) {
+            if (sv.getDiemTB() > svCaoNhat.getDiemTB()) {
+                svCaoNhat = sv;
+            }
+        }
+        return svCaoNhat;
     }
 
-    double tong = 0;
-    for (SinhVien sv : danhSachSV) {
-        tong += sv.getDiemTB();
+    // Tính điểm trung bình của cả lớp
+    public double tinhDiemTrungBinhLop() {
+        if (danhSachSV.isEmpty()) {
+            return 0;
+        }
+
+        double tong = 0;
+        for (SinhVien sv : danhSachSV) {
+            tong += sv.getDiemTB();
+        }
+        return tong / danhSachSV.size();
     }
-    return tong / danhSachSV.size();
-    }
+
     // Lọc sinh viên có điểm >= điểm cho trước
     public List<SinhVien> locSinhVienTheoDiem(double diemToiThieu) {
         List<SinhVien> ketQua = new ArrayList<>();
@@ -77,4 +79,44 @@ public double tinhDiemTrungBinhLop() {
         }
     }
 
+    // Hiển thị toàn bộ sinh viên
+    public void hienThiDanhSach() {
+        if (danhSachSV.isEmpty()) {
+            System.out.println("Danh sách sinh viên trống!");
+            return;
+        }
+
+        System.out.println("\n=== DANH SÁCH SINH VIÊN ===");
+        System.out.println(String.format("%-5s %-10s %-20s %-10s",
+                "STT", "Mã SV", "Họ tên", "Điểm TB"));
+        System.out.println("=".repeat(50));
+
+        for (int i = 0; i < danhSachSV.size(); i++) {
+            SinhVien sv = danhSachSV.get(i);
+            System.out.println(String.format("%-5d %-10s %-20s %-10.2f",
+                    i + 1, sv.getMaSV(), sv.getHoTen(), sv.getDiemTB()));
+        }
+    }
+
+    // Xóa sinh viên theo mã - remove()
+    public boolean xoaSinhVien(String maSV) {
+        for (int i = 0; i < danhSachSV.size(); i++) {
+            if (danhSachSV.get(i).getMaSV().equals(maSV)) {
+                SinhVien svBiXoa = danhSachSV.remove(i);
+                System.out.println("Đã xóa: " + svBiXoa.getHoTen());
+                return true;
+            }
+        }
+        System.out.println("Không tìm thấy sinh viên với mã: " + maSV);
+        return false;
+    }
+
+    // Sử dụng subList()
+    public void hienThiHaiSinhVienDauTien() {
+        if (danhSachSV.size() >= 2) {
+            List<SinhVien> subList = danhSachSV.subList(0, 2);
+            System.out.println("\nHai sinh viên đầu tiên:");
+            subList.forEach(System.out::println);
+        }
+    }
 }
