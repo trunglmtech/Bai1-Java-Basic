@@ -16,5 +16,7 @@ public class ArrayListCoBan {
         danhSachTen.add(1, "Phạm Thị D"); // Chèn vào vị trí 1
 
         System.out.println("Danh sách sau khi thêm: " + danhSachTen);
-
+        // 3. Lấy kích thước - size()
+        System.out.println("\n--- KÍCH THƯỚC ---");
+        System.out.println("Số phần tử: " + danhSachTen.size());
     }
