@@ -8,14 +8,17 @@ public class XuLyDanhSachSo {
             Scanner sc = new Scanner(System.in);
             ArrayList<Integer> ds = new ArrayList<>();
 
-            System.out.println("Nhập số nguyên (nhập 0 để kết thúc):");
-            while (true) {
-                int n = sc.nextInt();
-                if (n == 0) break;
-                ds.add(n);
+            System.out.print("Nhập số lượng phần tử: ");
+            int n = sc.nextInt();
+
+            // Nhập từng phần tử
+            for (int i = 0; i < n; i++) {
+                System.out.print("Nhập số thứ " + (i + 1) + ": ");
+                int x = sc.nextInt();
+                ds.add(x);
             }
 
-            System.out.println("Danh sách vừa nhập: " + ds);
+            System.out.println("\nDanh sách vừa nhập: " + ds);
 
             // 1. Loại bỏ trùng lặp
             ArrayList<Integer> dsKhongTrung = new ArrayList<>();
