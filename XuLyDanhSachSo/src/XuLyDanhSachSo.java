@@ -50,7 +50,7 @@ public class XuLyDanhSachSo {
             double trungBinhChan = demChan > 0 ? (double) tongChan / demChan : 0;
             System.out.println("Trung bình cộng số chẵn: " + trungBinhChan);
 
-            // 4. Tách danh sách thành 2: số chẵn và số l
+            // 4. Tách danh sách thành 2: số chẵn và số lẻ
             ArrayList<Integer> chan = new ArrayList<>();
             ArrayList<Integer> le = new ArrayList<>();
             for (int x : ds) {
@@ -60,7 +60,7 @@ public class XuLyDanhSachSo {
             System.out.println("Số chẵn: " + chan);
             System.out.println("Số lẻ: " + le);
 
-            // 5. Đảo ngược danh sách (không dùng Collections.reverse)
+            // 5. Đảo ngược danh sách (không dùng Collections.reverse
             ArrayList<Integer> daoNguoc = new ArrayList<>();
             for (int i = ds.size() - 1; i >= 0; i--) {
                 daoNguoc.add(ds.get(i));
