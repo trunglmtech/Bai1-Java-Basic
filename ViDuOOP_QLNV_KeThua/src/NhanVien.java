@@ -1,3 +1,4 @@
+package trunglmtech;
 
 public class NhanVien {
     // thuộc tính
