@@ -1,4 +1,4 @@
-package trunglmtech;
+
 
 public class NhanVien {
     // thuộc tính
@@ -31,15 +31,15 @@ public class NhanVien {
     public String toString() {
         String chuoiXuat= "";
         chuoiXuat = chuoiXuat + "Mã NV: " + this.maNV;
-        chuoiXuat = chuoiXuat + "Họ Tên: " + this.hoTen;
-        chuoiXuat = chuoiXuat + "Lương cơ bản: " + this.luongCoBan;
+        chuoiXuat = chuoiXuat + " Họ Tên: " + this.hoTen;
+        chuoiXuat = chuoiXuat + " Lương cơ bản: " + this.luongCoBan;
         return chuoiXuat;
         //return "NhanVien [maNV=" + maNV + ", hoTen=" + hoTen + ", luongCoBan=" + luongCoBan + "]";
     }
     public void hienThiThongTin() {
         System.out.println("Mã NV: " + maNV);
-        System.out.println("Họ tên: " + hoTen);
-        System.out.println("Lương cơ Bản: " + luongCoBan);
+        System.out.println(" Họ tên: " + hoTen);
+        System.out.println(" Lương cơ Bản: " + luongCoBan);
     }
     //cac getter/setter
     public String getMaNV() {
