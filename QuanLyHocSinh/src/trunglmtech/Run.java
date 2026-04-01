@@ -17,6 +17,22 @@ public class Run {
 
         System.out.println("Thông tin học sinh 1:\n" + hs1.toString());
         System.out.println("Thông tin học sinh 2:\n" + hs2.toString());
+        
+        // --- CÂU 2B: NHẬP DỮ LIỆU TỪ BÀN PHÍM ---
+        System.out.println("\n--- 2B: NHẬP HỌC SINH TỪ BÀN PHÍM ---");
+        HocSinh hs3 = new HocSinh();
+        
+        System.out.print("Mời nhập tên của học sinh thứ ba: ");
+        hs3.setTenHocSinh(scanner.nextLine());
+        
+        System.out.print("Mời nhập tuổi của học sinh thứ ba: ");
+        // Ép kiểu để tránh lỗi trôi lệnh khi nhập số rồi nhập chuỗi
+        hs3.setTuoiHocSinh(Integer.parseInt(scanner.nextLine())); 
+        
+        System.out.print("Mời nhập lớp của học sinh thứ ba: ");
+        hs3.setLopHocSinh(scanner.nextLine());
+
+        System.out.println("Thông tin học sinh 3:\n" + hs3.toString());
 
 	}
 
