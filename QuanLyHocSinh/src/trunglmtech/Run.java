@@ -12,6 +12,11 @@ public class Run {
         hs1.setTenHocSinh("Trần Văn A");
         hs1.setTuoiHocSinh(10);
         hs1.setLopHocSinh("8A12");
+        // Cách 2: Dùng hàm tạo có tham số
+        HocSinh hs2 = new HocSinh("Trần Thị Tươi", 12, "6C");
+
+        System.out.println("Thông tin học sinh 1:\n" + hs1.toString());
+        System.out.println("Thông tin học sinh 2:\n" + hs2.toString());
 
 	}
 
