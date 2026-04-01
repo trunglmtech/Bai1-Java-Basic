@@ -76,6 +76,19 @@ public class Run {
         hsThem.setLopHocSinh(scanner.nextLine());
 
         danhSachHocSinh.add(hsThem); // Thêm vào danh sách
+        
+        // --- CÂU 5: XÓA HỌC SINH TÊN "Hoa" ---
+        System.out.println("\n--- 5: XÓA HỌC SINH TÊN 'Hoa' ---");
+        for (int i = 0; i < danhSachHocSinh.size(); i++) {
+            HocSinh hsTim = danhSachHocSinh.get(i); // Lấy học sinh thứ i ra để kiểm tra
+            
+            // Nếu tên của học sinh bằng "Hoa"
+            if (hsTim.getTenHocSinh().equals("Hoa")) {
+                danhSachHocSinh.remove(hsTim); // Xóa khỏi danh sách
+                System.out.println("Đã xóa học sinh tên Hoa đầu tiên tìm thấy.");
+                break; // Thoát vòng lặp ngay lập tức 
+            }
+        }
 
 	}
 
