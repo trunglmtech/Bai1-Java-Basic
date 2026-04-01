@@ -64,6 +64,18 @@ public class Run {
             System.out.println(danhSachHocSinh.get(i).toString());
             System.out.println("--------------------");
         }
+        
+        // --- CÂU 4: THÊM 1 HỌC SINH MỚI VÀO DANH SÁCH ---
+        System.out.println("\n--- 4: THÊM HỌC SINH VÀO DANH SÁCH ---");
+        HocSinh hsThem = new HocSinh();
+        System.out.print("Nhập tên học sinh cần thêm: ");
+        hsThem.setTenHocSinh(scanner.nextLine());
+        System.out.print("Nhập tuổi: ");
+        hsThem.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
+        System.out.print("Nhập lớp: ");
+        hsThem.setLopHocSinh(scanner.nextLine());
+
+        danhSachHocSinh.add(hsThem); // Thêm vào danh sách
 
 	}
 
