@@ -33,6 +33,30 @@ public class Run {
         hs3.setLopHocSinh(scanner.nextLine());
 
         System.out.println("Thông tin học sinh 3:\n" + hs3.toString());
+        
+        // --- CÂU 3: NHẬP DANH SÁCH N HỌC SINH (ARRAYLIST) ---
+        System.out.println("\n--- 3: NHẬP DANH SÁCH ARRAYLIST ---");
+        ArrayList<HocSinh> danhSachHocSinh = new ArrayList<>();
+        
+        System.out.print("Nhập số lượng học sinh n = ");
+        int n = Integer.parseInt(scanner.nextLine());
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println("Mời nhập thông tin học sinh thứ " + i + ":");
+            HocSinh hsTmp = new HocSinh(); // Khởi tạo học sinh tạm
+
+            System.out.print("Nhập tên: ");
+            hsTmp.setTenHocSinh(scanner.nextLine());
+
+            System.out.print("Nhập tuổi: ");
+            hsTmp.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
+
+            System.out.print("Nhập lớp: ");
+            hsTmp.setLopHocSinh(scanner.nextLine());
+
+            // Đưa đối tượng học sinh vào danh sách
+            danhSachHocSinh.add(hsTmp);
+        }
 
 	}
 
