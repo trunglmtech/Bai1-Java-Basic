@@ -1,4 +1,6 @@
 package trunglmtech;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Run {
 
@@ -49,7 +51,7 @@ public class Run {
             tam.setTenHocSinh(scanner.nextLine());
 
             System.out.print("Nhập tuổi: ");
-            tan.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
+            tam.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
 
             System.out.print("Nhập lớp: ");
             tam.setLopHocSinh(scanner.nextLine());
@@ -87,6 +89,14 @@ public class Run {
                 danhSachHocSinh.remove(hsTim); // Xóa khỏi danh sách
                 System.out.println("Đã xóa học sinh tên Hoa đầu tiên tìm thấy.");
                 break; // Thoát vòng lặp ngay lập tức 
+            }
+            
+            
+         // CÂU 5b: In lại danh sách để kiểm tra kết quả cuối cùng
+            System.out.println("\nDanh sách sau khi xử lý:");
+            for (HocSinh hs : danhSachHocSinh) {
+                System.out.println(hs.toString());
+                System.out.println("--------------------");
             }
         }
 
