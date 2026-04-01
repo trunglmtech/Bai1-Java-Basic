@@ -43,19 +43,26 @@ public class Run {
 
         for (int i = 1; i <= n; i++) {
             System.out.println("Mời nhập thông tin học sinh thứ " + i + ":");
-            HocSinh hsTmp = new HocSinh(); // Khởi tạo học sinh tạm
+            HocSinh tam = new HocSinh(); // Khởi tạo học sinh tạm
 
             System.out.print("Nhập tên: ");
-            hsTmp.setTenHocSinh(scanner.nextLine());
+            tam.setTenHocSinh(scanner.nextLine());
 
             System.out.print("Nhập tuổi: ");
-            hsTmp.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
+            tan.setTuoiHocSinh(Integer.parseInt(scanner.nextLine()));
 
             System.out.print("Nhập lớp: ");
-            hsTmp.setLopHocSinh(scanner.nextLine());
+            tam.setLopHocSinh(scanner.nextLine());
 
             // Đưa đối tượng học sinh vào danh sách
-            danhSachHocSinh.add(hsTmp);
+            danhSachHocSinh.add(tam);
+        }
+        
+        // In danh sách ra màn hình
+        System.out.println("\nDanh sách học sinh vừa nhập:");
+        for (int i = 0; i < danhSachHocSinh.size(); i++) {
+            System.out.println(danhSachHocSinh.get(i).toString());
+            System.out.println("--------------------");
         }
 
 	}
