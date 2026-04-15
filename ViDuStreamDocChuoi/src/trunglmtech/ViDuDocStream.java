@@ -21,6 +21,6 @@ public class ViDuDocStream {
 		System.out.println(line1);
 		String line2 = bufReader.readLine();
 		System.out.println(line2);
-	}
+	
 
 }
