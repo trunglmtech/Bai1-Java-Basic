@@ -63,13 +63,9 @@ Dưới đây là danh sách chi tiết các bài tập có trong kho lưu trữ
 
 ---
 
-### 📝 Lưu ý về Ảnh Code Demo
-Để các hình ảnh demo hiển thị chính xác trong bảng trên, bạn hãy:
-1. Chụp ảnh màn hình code hoặc kết quả chạy chương trình.
-2. Lưu ảnh đó vào thư mục của project tương ứng với tên là `demo.png`.
-   * Ví dụ: Ảnh của bài `GiaiPTBac1` sẽ nằm tại đường dẫn `GiaiPTBac1/demo.png`.
-3. Sau khi `git push` lên GitHub, ảnh sẽ tự động xuất hiện trong file Readme.
+### 📝 Lưu ý về Code Demo
+Code Demo chỉ để tham khảo, có thể sai sót
 
 ---
 **Author:** [Lê Minh Trung (trunglmtech)](https://github.com/trunglmtech)  
-**Major:** Information Technology - NTV
+**Major:** Information Technology - 
