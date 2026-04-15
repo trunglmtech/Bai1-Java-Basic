@@ -1,9 +1,4 @@
 # 📘 [BufferedReader - Kết thúc dấu chấm](https://github.com/trunglmtech/Bai1-Java-Basic/tree/main/ViDuStreamKetThucDauCham)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/trunglmtech/DATA-SAVE/main/save1.PNG" width="500"/>
-</p>
-
 ---
 
 ## 🚀 Mô tả
