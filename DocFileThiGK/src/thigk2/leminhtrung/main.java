@@ -26,6 +26,9 @@ public class main {
         // Bước 3: Kiểm tra giá trị X (Ngày sinh của Trung)
         // Ví dụ ngày sinh là 15, bạn hãy đổi số này đúng với ngày sinh của mình
         double X = 15.0;
+        
+        System.out.println("\n--- KIỂM TRA GIÁ TRỊ X ---");
+        System.out.println("Giá trị tìm kiếm (Ngày sinh X): " + X);
 
 	}
 
