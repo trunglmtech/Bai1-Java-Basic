@@ -37,7 +37,11 @@ public class Cau1 {
         // Tính Chu vi và Diện tích
         double chuVi = (chieuDai + chieuRong) * 2;
         double dienTich = chieuDai * chieuRong;
-
+        
+        
+        // Xuất kết quả
+        System.out.println("\n--- KẾT QUẢ ---");
+        System.out.printf("Chiều dài: %.2f, Chiều rộng: %.2f\n", chieuDai, chieuRong);
 	}
 
 }
