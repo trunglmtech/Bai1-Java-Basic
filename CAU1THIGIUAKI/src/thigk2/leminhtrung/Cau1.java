@@ -1,5 +1,5 @@
 package thigk2.leminhtrung;
-
+import java.util.Scanner;
 public class Cau1 {
 
 	/**
@@ -44,6 +44,8 @@ public class Cau1 {
         System.out.printf("Chiều dài: %.2f, Chiều rộng: %.2f\n", chieuDai, chieuRong);
         System.out.printf("Chu vi hình chữ nhật: %.2f\n", chuVi);
         System.out.printf("Diện tích hình chữ nhật: %.2f\n", dienTich);
+        
+        scanner.close();
 	}
 
 }
