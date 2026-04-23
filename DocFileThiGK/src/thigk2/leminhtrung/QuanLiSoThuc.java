@@ -35,7 +35,11 @@ public class QuanLiSoThuc {
                             System.out.println();
                         }
                     }
-                }    
+                }   
+                
+             // Phương thức kiểm tra giá trị X có tồn tại không
+                public boolean kiemTraTonTai(double x) {
+                    return danhSachSo.contains(x);
             }
         }       
     }
