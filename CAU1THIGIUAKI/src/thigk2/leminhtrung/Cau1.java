@@ -42,6 +42,8 @@ public class Cau1 {
         // Xuất kết quả
         System.out.println("\n--- KẾT QUẢ ---");
         System.out.printf("Chiều dài: %.2f, Chiều rộng: %.2f\n", chieuDai, chieuRong);
+        System.out.printf("Chu vi hình chữ nhật: %.2f\n", chuVi);
+        System.out.printf("Diện tích hình chữ nhật: %.2f\n", dienTich);
 	}
 
 }
