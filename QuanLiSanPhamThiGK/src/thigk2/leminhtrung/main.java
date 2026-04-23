@@ -40,6 +40,16 @@ public class main {
      // c. In lại danh sách tất cả sản phẩm
         System.out.println("\n--- Toàn bộ danh sách sản phẩm hiện tại ---");
         hienThiDanhSach(danhSach);
+        
+     // d. Lọc và in sản phẩm có loại là "Thực phẩm chức năng"
+        System.out.println("\n--- Danh sách Thực phẩm chức năng ---");
+        for (SanPham sp : danhSach) {
+            if (sp.getLoaiSP().equalsIgnoreCase("Thực phẩm chức năng")) {
+                System.out.println(sp);
+            }
+        }
+        
+        sc.close();
 
 	}
 
