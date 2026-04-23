@@ -50,6 +50,14 @@ public class main {
         }
         
         sc.close();
+        
+	}
+
+    // Hàm phụ trợ để in danh sách
+    public static void hienThiDanhSach(ArrayList<SanPham> list) {
+        for (SanPham sp : list) {
+            System.out.println(sp);
+        }
 
 	}
 
