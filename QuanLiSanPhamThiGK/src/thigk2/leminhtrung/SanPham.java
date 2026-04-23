@@ -18,4 +18,18 @@ public class SanPham {
 	        this.loaiSP = loaiSP;
 	        this.gia = gia;
 	    }
+	    
+	    
+	 // Getter và Setter
+	    public String getMaSP() { return maSP; }
+	    public void setMaSP(String maSP) { this.maSP = maSP; }
+
+	    public String getTenSP() { return tenSP; }
+	    public void setTenSP(String tenSP) { this.tenSP = tenSP; }
+
+	    public String getLoaiSP() { return loaiSP; }
+	    public void setLoaiSP(String loaiSP) { this.loaiSP = loaiSP; }
+
+	    public double getGia() { return gia; }
+	    public void setGia(double gia) { this.gia = gia; }
 }
