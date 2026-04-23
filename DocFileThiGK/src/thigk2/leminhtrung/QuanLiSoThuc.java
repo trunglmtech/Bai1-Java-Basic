@@ -21,5 +21,11 @@ public class QuanLiSoThuc {
                     danhSachSo.add(sc.nextDouble());
                 }
                 sc.close();
+                
+                System.out.println("Đã đọc xong dữ liệu từ file.");
+            } catch (FileNotFoundException e) {
+                System.out.println("Lỗi: Không tìm thấy file tại " + duongDan);
+            }
+        }       
     }
 }
