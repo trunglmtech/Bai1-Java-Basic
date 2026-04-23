@@ -1231,3 +1231,21 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Baitap1_Bient
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-23 07:28:53.743
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Trung/Desktop/Bai1-Java-Basic/test/src/test/hello.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:41.302
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 3ff55c3a-a60e-482c-8931-b3538deeda6a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1027.9699000000255ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:41.303
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:41.629
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 1cc47439-73ea-438f-b851-a1313e885aab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 312.0644999999786ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:41.739
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:42.785
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetchCompletions] Request 040964d5-3f4f-46ef-8761-ffa5479e8ca8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.6877000000095ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-23 07:35:42.899
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[streamChoices] solution 0 returned. finish reason: [stop]
