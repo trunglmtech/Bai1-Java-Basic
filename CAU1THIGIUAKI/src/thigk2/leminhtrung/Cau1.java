@@ -16,7 +16,7 @@ public class Cau1 {
 	
 	public static void main(String[] args) {
 		System.out.println("--- CHƯƠNG TRÌNH TÍNH CHU VI & DIỆN TÍCH HÌNH CHỮ NHẬT ---");
-        
+		Scanner scanner = new Scanner(System.in);
         // Nhập tọa độ góc Trên-Trái
         System.out.print("Nhập tọa độ x1 (Góc Trên-Trái): ");
         double x1 = scanner.nextDouble();
