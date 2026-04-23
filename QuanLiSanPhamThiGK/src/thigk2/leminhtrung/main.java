@@ -36,6 +36,10 @@ public class main {
         double gia = sc.nextDouble();
         
         danhSach.add(new SanPham(ma, ten, loai, gia));
+        
+     // c. In lại danh sách tất cả sản phẩm
+        System.out.println("\n--- Toàn bộ danh sách sản phẩm hiện tại ---");
+        hienThiDanhSach(danhSach);
 
 	}
 
