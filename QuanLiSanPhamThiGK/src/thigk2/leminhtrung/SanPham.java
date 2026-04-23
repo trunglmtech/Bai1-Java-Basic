@@ -32,4 +32,9 @@ public class SanPham {
 
 	    public double getGia() { return gia; }
 	    public void setGia(double gia) { this.gia = gia; }
+	    
+	    @Override
+	    public String toString() {
+	        return "Mã SP: " + maSP + " | Tên: " + tenSP + " | Loại: " + loaiSP + " | Giá: " + gia;
+	    }
 }
