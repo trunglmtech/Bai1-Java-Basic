@@ -15,7 +15,19 @@ public class Cau1 {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("--- CHƯƠNG TRÌNH TÍNH CHU VI & DIỆN TÍCH HÌNH CHỮ NHẬT ---");
+        
+        // Nhập tọa độ góc Trên-Trái
+        System.out.print("Nhập tọa độ x1 (Góc Trên-Trái): ");
+        double x1 = scanner.nextDouble();
+        System.out.print("Nhập tọa độ y1 (Góc Trên-Trái): ");
+        double y1 = scanner.nextDouble();
+
+        // Nhập tọa độ góc Dưới-Phải
+        System.out.print("Nhập tọa độ x2 (Góc Dưới-Phải): ");
+        double x2 = scanner.nextDouble();
+        System.out.print("Nhập tọa độ y2 (Góc Dưới-Phải): ");
+        double y2 = scanner.nextDouble();
 
 	}
 
