@@ -33,6 +33,10 @@ public class Cau1 {
         // Tính toán kích thước
         double chieuRong = Math.abs(x1 - x2);
         double chieuDai = Math.abs(y1 - y2);
+        
+        // Tính Chu vi và Diện tích
+        double chuVi = (chieuDai + chieuRong) * 2;
+        double dienTich = chieuDai * chieuRong;
 
 	}
 
