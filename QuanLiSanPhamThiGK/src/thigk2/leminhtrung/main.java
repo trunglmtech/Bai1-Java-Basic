@@ -23,6 +23,19 @@ public class main {
 
         System.out.println("--- Danh sách 3 sản phẩm ban đầu ---");
         hienThiDanhSach(danhSach);
+        
+     // b. Thêm mới một sản phẩm từ bàn phím
+        System.out.println("\n--- Nhập thông tin sản phẩm mới ---");
+        System.out.print("Mã sản phẩm: ");
+        String ma = sc.nextLine();
+        System.out.print("Tên sản phẩm: ");
+        String ten = sc.nextLine();
+        System.out.print("Loại sản phẩm: ");
+        String loai = sc.nextLine();
+        System.out.print("Giá bán: ");
+        double gia = sc.nextDouble();
+        
+        danhSach.add(new SanPham(ma, ten, loai, gia));
 
 	}
 
