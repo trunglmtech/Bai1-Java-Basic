@@ -25,6 +25,17 @@ public class QuanLiSoThuc {
                 System.out.println("Đã đọc xong dữ liệu từ file.");
             } catch (FileNotFoundException e) {
                 System.out.println("Lỗi: Không tìm thấy file tại " + duongDan);
+                
+             // Phương thức in danh sách (mỗi dòng 10 số)
+                public void xuatDanhSach() {
+                    System.out.println("--- DANH SÁCH 80 SỐ THỰC ---");
+                    for (int i = 0; i < danhSachSo.size(); i++) {
+                        System.out.print(danhSachSo.get(i) + "\t");
+                        if ((i + 1) % 10 == 0) {
+                            System.out.println();
+                        }
+                    }
+                }    
             }
         }       
     }
