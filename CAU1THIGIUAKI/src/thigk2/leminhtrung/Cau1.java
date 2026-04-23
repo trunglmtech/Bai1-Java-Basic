@@ -28,6 +28,11 @@ public class Cau1 {
         double x2 = scanner.nextDouble();
         System.out.print("Nhập tọa độ y2 (Góc Dưới-Phải): ");
         double y2 = scanner.nextDouble();
+        
+        
+        // Tính toán kích thước
+        double chieuRong = Math.abs(x1 - x2);
+        double chieuDai = Math.abs(y1 - y2);
 
 	}
 
