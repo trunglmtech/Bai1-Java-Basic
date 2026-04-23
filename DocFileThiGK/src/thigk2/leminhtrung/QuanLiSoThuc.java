@@ -9,9 +9,9 @@ public class QuanLiSoThuc {
 	
 	private ArrayList<Double> danhSachSo;
 
-    public QuanLySoThuc() {
+    public QuanLiSoThuc() {
         this.danhSachSo = new ArrayList<>();
-        
+    } 
         // Phương thức đọc file từ đường dẫn được cung cấp
         public void docDuLieuTuFile(String duongDan) {
             try {
@@ -24,7 +24,11 @@ public class QuanLiSoThuc {
                 
                 System.out.println("Đã đọc xong dữ liệu từ file.");
             } catch (FileNotFoundException e) {
+            	
+            
                 System.out.println("Lỗi: Không tìm thấy file tại " + duongDan);
+            	}    
+        }
                 
              // Phương thức in danh sách (mỗi dòng 10 số)
                 public void xuatDanhSach() {
@@ -41,6 +45,6 @@ public class QuanLiSoThuc {
                 public boolean kiemTraTonTai(double x) {
                     return danhSachSo.contains(x);
             }
-        }       
-    }
-}
+        }
+    
+

@@ -11,7 +11,7 @@ public class main {
      */
 
 	public static void main(String[] args) {
-	uanLySoThuc quanLy = new QuanLySoThuc();
+	QuanLiSoThuc quanLy = new QuanLiSoThuc();
         
         // ĐƯỜNG DẪN ĐẾN FILE TRÊN DESKTOP CỦA BẠN
         // Giả sử tên file là "dulieu.txt", bạn hãy sửa lại đúng tên file thực tế nhé
