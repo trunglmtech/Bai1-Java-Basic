@@ -16,6 +16,16 @@ public class main {
         // ĐƯỜNG DẪN ĐẾN FILE TRÊN DESKTOP CỦA BẠN
         // Giả sử tên file là "dulieu.txt", bạn hãy sửa lại đúng tên file thực tế nhé
         String path = "C:\\Users\\Trung\\Desktop\\dulieu.txt";
+        
+     // Bước 1: Đọc dữ liệu
+        quanLy.docDuLieuTuFile(path);
+        
+        // Bước 2: In danh sách ra màn hình
+        quanLy.xuatDanhSach();
+        
+        // Bước 3: Kiểm tra giá trị X (Ngày sinh của Trung)
+        // Ví dụ ngày sinh là 15, bạn hãy đổi số này đúng với ngày sinh của mình
+        double X = 15.0;
 
 	}
 
