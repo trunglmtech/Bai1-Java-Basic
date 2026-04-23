@@ -29,6 +29,12 @@ public class main {
         
         System.out.println("\n--- KIỂM TRA GIÁ TRỊ X ---");
         System.out.println("Giá trị tìm kiếm (Ngày sinh X): " + X);
+        
+        if (quanLy.kiemTraTonTai(X)) {
+            System.out.println("=> Kết quả: Tìm thấy giá trị " + X + " trong danh sách.");
+        } else {
+            System.out.println("=> Kết quả: Không tìm thấy giá trị " + X + " trong danh sách.");
+        }
 
 	}
 
