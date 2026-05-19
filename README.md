@@ -121,7 +121,7 @@ public class GUITinhBMI extends Application {
     }
 }
 ```
-
+<summary><b>💻 Hiển thị ảnh</b></summary>
 </details>
 
 ---
