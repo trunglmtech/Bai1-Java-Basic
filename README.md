@@ -121,9 +121,8 @@ public class GUITinhBMI extends Application {
     }
 }
 ```
-<summary><b>💻 Hiển thị ảnh</b></summary>
 </details>
-
+<summary><b>💻 Hiển thị ảnh</b></summary>
 ---
 
 ### 1. [ArrayListCoBan](https://github.com/trunglmtech/Bai1-Java-Basic/tree/main/ArrayListCoBan)
