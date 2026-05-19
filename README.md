@@ -122,6 +122,7 @@ public class GUITinhBMI extends Application {
 }
 ```
 </details>
+<details>
 <summary><b>💻 Hiển thị ảnh</b></summary>
 <p align="center">
   <img src="https://raw.githubusercontent.com/trunglmtech/DATA-SAVE/main/bmi1.PNG" alt="Màn hình nhập dữ liệu">
@@ -134,6 +135,7 @@ public class GUITinhBMI extends Application {
   <br>
   <i>Tính bmi dựa trên dữ liệu nhập vào</i>
 </p>
+</details>
 ---
 
 ### 1. [ArrayListCoBan](https://github.com/trunglmtech/Bai1-Java-Basic/tree/main/ArrayListCoBan)
