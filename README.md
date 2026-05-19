@@ -136,6 +136,7 @@ public class GUITinhBMI extends Application {
   <i>Tính bmi dựa trên dữ liệu nhập vào</i>
 </p>
 </details>
+
 ---
 
 ### 1. [ArrayListCoBan](https://github.com/trunglmtech/Bai1-Java-Basic/tree/main/ArrayListCoBan)
